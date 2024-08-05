@@ -105,7 +105,7 @@ const addSearchAdndSortFeatures = (type) =>{
         const filterFileds = currentFiles.filter(file => 
             file.toLowerCase().includes(searchTerm));
 
-        displayFilesList(filteredFileds); 
+        displayFilesList(filterFileds); 
 
 
     });
@@ -143,7 +143,7 @@ const sortFiles = (order) => {
         }
     });
 
-    displayFilesList(sortedFiles)
+    displayFilesList(sortFiles)
 }
 
 const displayFilesList = (files) => {
