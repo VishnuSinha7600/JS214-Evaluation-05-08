@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#folders-container{
+    margin: 20px;
+}
+
+#files-container{
+    margin: 20px;
+}
+
+.folder{
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border: 5px;
+    background-color: aquamarine;
+}
+
+button{
+    margin: 10px;
+    padding: 5px 10px;
+}
